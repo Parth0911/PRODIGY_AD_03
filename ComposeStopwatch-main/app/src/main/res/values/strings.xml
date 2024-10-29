@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name" translatable="false">Compose Stopwatch</string>
+    <string name="app_version" translatable="false">1.8.1</string>
+    <string name="app_author" translatable="false">JustDeax (github.com/JustDeax)</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="apply">Apply</string>
+
+    <string name="stopwatch_channel">Stopwatch notifications</string>
+    <string name="stopwatch_paused">Paused</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="stop">Stop</string>
+    <string name="add_lap">Add Lap</string>
+    <string name="last_lap">Last Lap</string>
+
+    <string name="additional_action">Additional Actions</string>
+    <string name="tap_on_clock">Tap on Clock</string>
+    <string name="turn_off_notif">Turn on/off notification</string>
+    <string name="theme">Theme</string>
+    <string name="lock_awake">Lock Awake</string>
+
+    <string name="change_tap_on_clock">Change tap on clock</string>
+    <string name="change_tap_on_clock_desc">Select an action when you tap on the clock that shows the time</string>
+    <string-array name="tap_on_clock">
+        <item name="none">None</item>
+        <item name="resume_or_pause">Resume or Pause</item>
+        <item name="resume_or_add_lap">Resume or Add Lap</item>
+        <item name="resume_or_stop">Resume or Stop</item>
+    </string-array>
+
+    <string name="reset_stopwatch">Reset Stopwatch?</string>
+    <string name="reset_stopwatch_desc_enable">To enable notifications you need to reset the stopwatch</string>
+    <string name="reset_stopwatch_desc_disable">To disable notifications you need to reset the stopwatch</string>
+
+    <string name="change_theme">Change theme</string>
+    <string name="change_theme_desc">Dynamic theme is only available with android 12+\nExtra Dark theme saves charging for Amoled screen</string>
+    <string-array name="theme">
+        <item name="system">System</item>
+        <item name="light">Light</item>
+        <item name="dark">Dark</item>
+        <item name="extra_dark">Extra Dark</item>
+    </string-array>
+    <string-array name="theme12">
+        <item name="system">System (Dynamic theme)</item>
+        <item name="light">Light</item>
+        <item name="dark">Dark</item>
+        <item name='extra_dark'>Extra Dark</item>
+    </string-array>
+    
+    <string name="lock_awake_mode">Screen Awake Mode</string>
+    <string name="lock_awake_mode_desc_enable">The screen wake-up mode is switched on</string>
+    <string name="lock_awake_mode_desc_disable">The screen wake-up mode is switched off</string>
+
+    <string name="about_app">About Compose Stopwatch</string>
+    <string name="about_app_desc">"Android stopwatch app in the Material You theme, designed for ease of use and best features
+
+► Circular progress
+    • Displays the progress of the current lap based on the very first one
+    • A dash on the lap progress shows the previous lap
+
+► Change theme, new themes are available
+    • Dynamic theme is only available with android 12+
+    • Extra Dark theme saves charging for Amoled screen
+
+► Change orientation
+    • Portrait mode has more space for laps
+    • In Landscape mode, time text is larger
+
+► Select an action when you tap on the clock that shows the time
+    • Resume or pause
+    • Resume or add lap
+    • Resume or pause
+    • If you don't want to do this, you can remove the action
+
+► Switching notifications on/off
+    • Stopwatch control in notifications
+    • When switched off, the stopwatch works on ViewModel and DataStore
+    • When enabled, the stopwatch works on LifecycleService and ForegroundService
+
+► Screen Awake mode
+    • Ability to watch the stopwatch without the screen falling asleep
+"</string>
+    <string name="about_app_desc_a">Author:</string>
+    <string name="about_app_desc_v">\nVersion:</string>
+
+</resources>

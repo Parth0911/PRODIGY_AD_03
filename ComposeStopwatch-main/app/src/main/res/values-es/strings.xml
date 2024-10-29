@@ -1,0 +1,84 @@
+<resources>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="apply">Aplicar</string>
+
+    <string name="stopwatch_channel">Notificaciones del cronómetro</string>
+    <string name="stopwatch_paused">En pausa</string>
+    <string name="pause">Pausar</string>
+    <string name="resume">Reanudar</string>
+    <string name="stop">Detener</string>
+    <string name="add_lap">Añadir vuelta</string>
+    <string name="last_lap">Última Vuelta</string>
+
+    <string name="additional_action">Acciones adicionales</string>
+    <string name="tap_on_clock">Tocar el reloj</string>
+    <string name="turn_off_notif">Activar/desactivar notificaciones</string>
+    <string name="theme">Tema</string>
+    <string name="lock_awake">Mantener pantalla activa</string>
+
+    <string name="change_tap_on_clock">Cambiar acción al tocar el reloj</string>
+    <string name="change_tap_on_clock_desc">Selecciona una acción cuando toques el reloj que muestra el tiempo</string>
+    <string-array name="tap_on_clock">
+        <item name="none">Ninguna</item>
+        <item name="resume_or_pause">Reanudar o pausar</item>
+        <item name="resume_or_add_lap">Reanudar o añadir vuelta</item>
+        <item name="resume_or_stop">Reanudar o detener</item>
+    </string-array>
+
+    <string name="reset_stopwatch">¿Reiniciar el cronómetro?</string>
+    <string name="reset_stopwatch_desc_enable">Para activar las notificaciones, debes reiniciar el cronómetro</string>
+    <string name="reset_stopwatch_desc_disable">Para desactivar las notificaciones, debes reiniciar el cronómetro</string>
+
+    <string name="change_theme">Cambiar tema</string>
+    <string name="change_theme_desc">El tema dinámico solo está disponible en Android 12+\nEl tema Extra Oscuro ahorra batería en pantallas AMOLED</string>
+    <string-array name="theme">
+        <item name="system">Sistema</item>
+        <item name="light">Claro</item>
+        <item name="dark">Oscuro</item>
+        <item name="extra_dark">Extra Oscuro</item>
+    </string-array>
+    <string-array name="theme12">
+        <item name="system">Sistema (Tema dinámico)</item>
+        <item name="light">Claro</item>
+        <item name="dark">Oscuro</item>
+        <item name='extra_dark'>Extra Oscuro</item>
+    </string-array>
+
+    <string name="lock_awake_mode">Modo de pantalla siempre activa</string>
+    <string name="lock_awake_mode_desc_enable">El modo de pantalla siempre activa está activado</string>
+    <string name="lock_awake_mode_desc_disable">El modo de pantalla siempre activa está desactivado</string>
+
+    <string name="about_app">Acerca de Compose Stopwatch</string>
+    <string name="about_app_desc">"Aplicación de cronómetro para Android con el tema Material You, diseñada para facilidad de uso y las mejores características
+
+► Progreso circular
+    • Muestra el progreso de la vuelta actual basado en la primera vuelta
+    • Un guion en el progreso de la vuelta muestra la vuelta anterior
+
+► Cambiar tema, nuevos temas disponibles
+    • El tema dinámico solo está disponible en Android 12+
+    • El tema Extra Oscuro ahorra batería en pantallas AMOLED
+
+► Cambiar orientación
+    • El modo retrato tiene más espacio para las vueltas
+    • En modo paisaje, el texto del tiempo es más grande
+
+► Selecciona una acción cuando toques el reloj que muestra el tiempo
+    • Reanudar o pausar
+    • Reanudar o añadir vuelta
+    • Reanudar o detener
+    • Si no quieres hacer esto, puedes eliminar la acción
+
+► Activar/desactivar notificaciones
+    • Control del cronómetro en las notificaciones
+    • Cuando está desactivado, el cronómetro funciona con ViewModel y DataStore
+    • Cuando está activado, el cronómetro funciona con LifecycleService y ForegroundService
+
+► Modo de pantalla siempre activa
+    • Posibilidad de ver el cronómetro sin que la pantalla se apague
+"</string>
+    <string name="about_app_desc_a">Autor:</string>
+    <string name="about_app_desc_v">\nVersión:</string>
+
+</resources>

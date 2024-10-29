@@ -1,0 +1,84 @@
+<resources>
+    <string name="cancel">Annuler</string>
+    <string name="ok">OK</string>
+    <string name="apply">Appliquer</string>
+
+    <string name="stopwatch_channel">Notifications du chronomètre</string>
+    <string name="stopwatch_paused">En pause</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Reprendre</string>
+    <string name="stop">Arrêter</string>
+    <string name="add_lap">Ajouter un tour</string>
+    <string name="last_lap">Dernier Tour</string>
+
+    <string name="additional_action">Actions supplémentaires</string>
+    <string name="tap_on_clock">Appuyer sur l\'horloge</string>
+    <string name="turn_off_notif">Activer/désactiver les notifications</string>
+    <string name="theme">Thème</string>
+    <string name="lock_awake">Maintenir l\'écran allumé</string>
+
+    <string name="change_tap_on_clock">Modifier l\'action au toucher de l\'horloge</string>
+    <string name="change_tap_on_clock_desc">Sélectionnez une action lorsque vous appuyez sur l\'horloge qui affiche le temps</string>
+    <string-array name="tap_on_clock">
+        <item name="none">Aucune</item>
+        <item name="resume_or_pause">Reprendre ou mettre en pause</item>
+        <item name="resume_or_add_lap">Reprendre ou ajouter un tour</item>
+        <item name="resume_or_stop">Reprendre ou arrêter</item>
+    </string-array>
+
+    <string name="reset_stopwatch">Réinitialiser le chronomètre ?</string>
+    <string name="reset_stopwatch_desc_enable">Pour activer les notifications, vous devez réinitialiser le chronomètre</string>
+    <string name="reset_stopwatch_desc_disable">Pour désactiver les notifications, vous devez réinitialiser le chronomètre</string>
+
+    <string name="change_theme">Changer de thème</string>
+    <string name="change_theme_desc">Le thème dynamique n\'est disponible qu\'à partir d\'Android 12+\nLe thème Extra Sombre économise la batterie pour les écrans AMOLED</string>
+    <string-array name="theme">
+        <item name="system">Système</item>
+        <item name="light">Clair</item>
+        <item name="dark">Sombre</item>
+        <item name="extra_dark">Extra Sombre</item>
+    </string-array>
+    <string-array name="theme12">
+        <item name="system">Système (Thème dynamique)</item>
+        <item name="light">Clair</item>
+        <item name="dark">Sombre</item>
+        <item name='extra_dark'>Extra Sombre</item>
+    </string-array>
+
+    <string name="lock_awake_mode">Mode écran toujours actif</string>
+    <string name="lock_awake_mode_desc_enable">Le mode écran toujours actif est activé</string>
+    <string name="lock_awake_mode_desc_disable">Le mode écran toujours actif est désactivé</string>
+
+    <string name="about_app">À propos de Compose Stopwatch</string>
+    <string name="about_app_desc">"Application chronomètre Android au design Material You, conçue pour une utilisation facile et les meilleures fonctionnalités
+
+► Progression circulaire
+    • Affiche la progression du tour actuel par rapport au tout premier
+    • Un tiret sur la progression du tour indique le tour précédent
+
+► Changez de thème, de nouveaux thèmes sont disponibles
+    • Le thème dynamique n\'est disponible qu\'à partir d\'Android 12+
+    • Le thème Extra Sombre économise la batterie pour les écrans AMOLED
+
+► Changez l\'orientation
+    • Le mode portrait offre plus d\'espace pour les tours
+    • En mode paysage, le texte de l\'heure est plus grand
+
+► Sélectionnez une action lorsque vous appuyez sur l\'horloge qui affiche le temps
+    • Reprendre ou mettre en pause
+    • Reprendre ou ajouter un tour
+    • Reprendre ou arrêter
+    • Si vous ne voulez pas faire cela, vous pouvez supprimer l\'action
+
+► Activation/désactivation des notifications
+    • Contrôle du chronomètre dans les notifications
+    • Lorsqu\'elles sont désactivées, le chronomètre fonctionne sur ViewModel et DataStore
+    • Lorsqu\'elles sont activées, le chronomètre fonctionne sur LifecycleService et ForegroundService
+
+► Mode écran toujours actif
+    • Possibilité de regarder le chronomètre sans que l\'écran ne s\'éteigne
+"</string>
+    <string name="about_app_desc_a">Auteur :</string>
+    <string name="about_app_desc_v">\nVersion :</string>
+
+</resources>

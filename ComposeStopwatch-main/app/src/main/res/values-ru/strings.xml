@@ -1,0 +1,84 @@
+<resources>
+    <string name="cancel">Отмена</string>
+    <string name="ok">ОК</string>
+    <string name="apply">Применить</string>
+
+    <string name="stopwatch_channel">Уведомления секундомера</string>
+    <string name="stopwatch_paused">Приостановлено</string>
+    <string name="pause">Пауза</string>
+    <string name="resume">Возобновить</string>
+    <string name="stop">Стоп</string>
+    <string name="add_lap">Добавить круг</string>
+    <string name="last_lap">Последний круг</string>
+
+    <string name="additional_action">Дополнительные действия</string>
+    <string name="tap_on_clock">Нажатие на часы</string>
+    <string name="turn_off_notif">Включить/выключить уведомления</string>
+    <string name="theme">Тема</string>
+    <string name="lock_awake">Не выключать экран</string>
+
+    <string name="change_tap_on_clock">Изменить действие при нажатии на часы</string>
+    <string name="change_tap_on_clock_desc">Выберите действие при нажатии на часы, показывающие время</string>
+    <string-array name="tap_on_clock">
+        <item name="none">Ничего</item>
+        <item name="resume_or_pause">Возобновить или пауза</item>
+        <item name="resume_or_add_lap">Возобновить или добавить круг</item>
+        <item name="resume_or_stop">Возобновить или стоп</item>
+    </string-array>
+
+    <string name="reset_stopwatch">Сбросить секундомер?</string>
+    <string name="reset_stopwatch_desc_enable">Для включения уведомлений необходимо сбросить секундомер</string>
+    <string name="reset_stopwatch_desc_disable">Для отключения уведомлений необходимо сбросить секундомер</string>
+
+    <string name="change_theme">Изменить тему</string>
+    <string name="change_theme_desc">Динамическая тема доступна только на Android 12+\nЭкстра-тёмная тема экономит заряд на AMOLED экранах</string>
+    <string-array name="theme">
+        <item name="system">Системная</item>
+        <item name="light">Светлая</item>
+        <item name="dark">Тёмная</item>
+        <item name="extra_dark">Экстра-тёмная</item>
+    </string-array>
+    <string-array name="theme12">
+        <item name="system">Системная (динамическая тема)</item>
+        <item name="light">Светлая</item>
+        <item name="dark">Тёмная</item>
+        <item name='extra_dark'>Экстра-тёмная</item>
+    </string-array>
+
+    <string name="lock_awake_mode">Режим активного экрана</string>
+    <string name="lock_awake_mode_desc_enable">Режим активного экрана включен</string>
+    <string name="lock_awake_mode_desc_disable">Режим активного экрана выключен</string>
+
+    <string name="about_app">О приложении Compose Stopwatch</string>
+    <string name="about_app_desc">"Приложение-секундомер для Android в стиле Material You, разработанное для удобства использования и лучших функций
+
+► Круговой прогресс
+    • Отображает прогресс текущего круга относительно самого первого
+    • Черточка на прогрессе круга показывает предыдущий круг
+
+► Смена темы, доступны новые темы
+    • Динамическая тема доступна только на Android 12+
+    • Экстра-тёмная тема экономит заряд на AMOLED экранах
+
+► Изменение ориентации
+    • В портретном режиме больше места для кругов
+    • В альбомном режиме текст времени крупнее
+
+► Выберите действие при нажатии на часы, показывающие время
+    • Возобновить или пауза
+    • Возобновить или добавить круг
+    • Возобновить или стоп
+    • Если вы не хотите этого, можете убрать действие
+
+► Включение/выключение уведомлений
+    • Управление секундомером в уведомлениях
+    • При выключении секундомер работает на ViewModel и DataStore
+    • При включении секундомер работает на LifecycleService и ForegroundService
+
+► Режим активного экрана
+    • Возможность следить за секундомером без отключения экрана
+"</string>
+    <string name="about_app_desc_a">Автор:</string>
+    <string name="about_app_desc_v">\nВерсия:</string>
+
+</resources>
